@@ -8,7 +8,7 @@ def sxor(s1,s2):
     # merge the resulting array of characters as a string
     return ''.join(str(format(int(a, 16) ^ int(b, 16), '04b')) for a,b in zip(s1,s2))
 
-filename = r'Levorg_DataField.txt'
+filename = r'carX/1min_CANtraffic_canid-data.log'
 
 MovingData = ""
 MovingDataLog = [[]]

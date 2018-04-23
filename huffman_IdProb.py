@@ -1,6 +1,6 @@
 # -*- coding:cp932 -*-
 
-filename = r'CorollaFielder_freq.txt'
+filename = r'carX/1min_CANtraffic_canid-count.log'
 
 freq = dict()
 for line in open(filename, 'rb'):
